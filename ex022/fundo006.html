@@ -4,20 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             height: 95vh;
+            /*
             background-position: center top;
             background-color: black;
-            background-image: url(imagens/pexels-daria-shevtsova-1619488.jpg);
+            background-image: url(imagens/pexels-john-tekeridis-3212164.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
-        }
+            background-attachment: fixed;
+         
+            /* shorthand - background
+             color > image > position > repeat > [size] > attachment
+            */
+            background: black url(imagens/pexels-john-tekeridis-3212164.jpg) center center no-repeat  fixed;
+            background-size: cover
+            
+            ;
+            }
+       
         main{
             background-color: beige;
-            width: 400px;
+            max-width: 300px;
             padding: 10px;
             margin: auto;
             border: 1px solid blue;
